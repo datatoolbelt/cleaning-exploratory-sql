@@ -1,4 +1,4 @@
-# Data Cleaning and EDA with SQL
+# 💻 Data Cleaning and EDA with SQL
 Here's where you'll find all the code lines associated with the data cleaning and exploratory data analysis (EDA) project for the laptops dataset.
 This repository alongside my medium [post](https://medium.com/@datatoolbelt/data-cleaning-and-eda-with-sql-4e70e84ef3b2) could serve as a very efficient resource for a someone starting their journey with SQL.
 

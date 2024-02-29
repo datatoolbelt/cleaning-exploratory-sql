@@ -232,19 +232,6 @@ ALTER TABLE laptop
 DROP COLUMN OpSys;
 ```
 
-The final cleaned file can now be exported for further exploration on any of the visualisation softwares available. Our dataset went from 12 messy columns to 18 columns ready for analysis.
+The final cleaned file can now be exported for further exploration on any of the visualisation softwares available. Our dataset went from 12 messy columns to 18 columns ready for analysis. Next step is exploration which you'll find [here](https://github.com/datatoolbelt/cleaning-exploratory-sql/blob/4f5c6b529580481742a49eff94aed5f6ac24f627/exploration.md).
 
-## Data Cleaning
-
-### Step 1: Creating Backup
-As a best practice, it's always necessary to have backup of your data in it's raw form. This helps us go back/ refer to the original version in case there's a mishap.
-
-```sql
--- create empty table of the same format
-CREATE TABLE laptop_backup LIKE laptop;
-
--- fill the table with all the data in current table
-INSERT INTO new_backup
-SELECT *
-FROM laptop;
-```
+Cheers!
